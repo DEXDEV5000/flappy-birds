@@ -1,2 +1,3 @@
 ﻿# flappy-birds
-Este es el proyecto de IITA
+Ya fue Hago un run and gun no croe que duerma
+Ya cree la beta del menu
