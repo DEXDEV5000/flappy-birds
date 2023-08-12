@@ -22,7 +22,7 @@ ventana = tk.Tk()
 ventana.title("Metal Men")
 ventana.geometry("1080x1080")
 # Cargar la imagen y redimensionarla
-imagen_fondo = Image.open("imagenes/Kevin.png")
+imagen_fondo = Image.open("imagenes/bg.png")
 ancho, alto = ventana.winfo_screenwidth(), ventana.winfo_screenheight()  # Tamaño de la pantalla
 imagen_redimensionada = imagen_fondo.resize((ancho, alto))
 imagen_fondo = ImageTk.PhotoImage(imagen_redimensionada)
@@ -39,6 +39,7 @@ boton_iniciar.pack(pady=20)
 
 boton_configuracion = tk.Button(ventana, text="Configuración", command=cerrar_y_abrir_2)
 boton_configuracion.pack(pady=20)
+
 
 # Ejecutar el bucle de la interfaz gráfica
 ventana.mainloop()
